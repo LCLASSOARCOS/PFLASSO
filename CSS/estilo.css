@@ -112,7 +112,41 @@
 }
 /* inicio nav */
 
+/* inicio footer */
 
+.categoriasFooter{
+    display: flex;
+    flex-direction: row;
+    background-color:rgb(248, 248, 245);
+    margin: 10px 0px 0px 0px;
+    border-top: 1px rgb(113, 106, 106) solid;
+
+}
+
+.ayudaFooter{
+    margin: 40px 80px;
+}
+
+.ayudaFooter h4{
+    margin-bottom: 30px;
+    color: #020505;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.parrafoFooter{
+    color: rgb(47, 49, 49);
+    font-size: 13px;
+}
+
+.mediosDePago{
+    display: flex;
+    flex-direction: row;
+}
+
+.logoPse{
+    width: 100px;
+}
 
 /* tienda main*/
 
