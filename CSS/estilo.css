@@ -1,7 +1,12 @@
+html {
+    font-family: 'roboto', 'Montserrat', sans-serif;
+}
+    
 *{
     margin: 0;
     padding: 0;
 }
+
 
 /* Index */
 
@@ -84,22 +89,16 @@ text-align: center;
 
 .sectionA{
     background-color: rgb(246, 243, 239);
-    height: 80vh;
     text-align: center;
+    width: 100%;
 }
-
-
-.sectionA .pe{
-    margin: 10px 20px;
-    color: #0b0710;
-    padding-top: 30px;} 
 
 .gridOutfit{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(2,1fr);
+    grid-template-rows: repeat(1,1fr);
     gap: 10px;
-    margin: 10px 20px;
+    width: 100%;
 
 }
 
@@ -110,6 +109,13 @@ text-align: center;
         grid-template-rows: repeat(2,1fr);
     }
 }
+
+.sectionA .pe{
+    margin: 10px 20px;
+    color: #0b0710;
+    padding-top: 30px;} 
+
+
 
 .imagenOutfit{
     width: 100%;
@@ -157,6 +163,55 @@ text-align: center;
     background-color: rgb(98, 94, 107);
 }
 
+/* section c */
+
+.sectionC{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(228, 244, 215);
+    border-top: 1px rgb(96, 89, 89) solid;
+    padding: 100px 0px;
+}
+
+.sectionC h1{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.sectionC p{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.formC{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.inputC{
+    background-color: #f9fbfb;
+    width: 400px;
+    margin-top: 20px;
+    padding: 10px 40px;
+    border: 1px solid rgb(150, 145, 145);
+    border-radius: 10px;
+}
+
+.buttonC{
+    color: #faf9fb;
+    background-color: #020505;
+    width: 400px;
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 10px 40px;
+    border: none;
+    font-weight:bold ;
+}
 /* inicio nav */
 
 /* inicio footer */
@@ -165,10 +220,9 @@ text-align: center;
     display: flex;
     flex-wrap: nowrap;    
     background-color:rgb(248, 248, 245);
-    margin: 10px 0px;
+    margin: 0px 0px;
     border-top: 1px #716a6a solid;
     width: 100%;
-    border: 2px solid red;
 }
 
 .ayudaFooter{
@@ -192,18 +246,14 @@ text-align: center;
     display: flex;
     flex-direction: row;
     justify-content:left;
-    border: 2px rgb(91, 45, 45) solid;
 }
 
 .logoPse{
     width: 50px;
-    border: yellow 2px solid;
-    
 }
 
 .tarjetas{
     width: 200px;
-    border: 2px red solid;
 }
 
 .appStore{
