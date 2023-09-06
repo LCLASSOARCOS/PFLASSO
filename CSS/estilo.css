@@ -31,13 +31,15 @@ html {
 }
 
 .categ{
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
     justify-content:center;
     align-items: end;
     width: 100%;
-    height: 100vh;
-    margin: 0px 20px;}
+    margin: 0px 0px;
+    border: 2px red solid;
+    }
 
 .imagenHombre{
     display: flex;
@@ -45,10 +47,13 @@ html {
     justify-content: center;
     width: 100%;
     align-items: center;
-    background-image: url(../Img/hombre.jpg);
+    background-image:  url('../Img/hombre.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
     background-position: center center;
-    background-size: cover;
-    height: 100%;}
+    height: 60vh;
+    border: 2px yellow solid;
+}
 
 .imagenMujer{
     display: flex;
@@ -57,15 +62,14 @@ html {
     width: 100%;
     align-items: center;
     background-image: url(../Img/mujer.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
     background-position: center center;
-    background-size: cover;
-    height: 100%;
-}
-
-.imagenIndex{
+    height: 60vh;
 }
 
 .imagenHombre h1{
+    width: 100%;
     font-size: 30px;
     margin-top: 0px;   
     padding: 0px 0px;
@@ -78,6 +82,7 @@ html {
 margin-top: 0px;    
 font-size: 30px;
 text-align: center;
+width: 100%;
 }
 
 
@@ -136,9 +141,10 @@ text-align: center;
     align-items: center;
     background-image: url(../Img/portada2.jpg);
     background-position: center center;
-    background-size:cover;
+    background-size:contain;
+    background-repeat: no-repeat;
     height: 107vh;
-
+    border: 2px solid red;
 }
 
 .sectionB h2{
@@ -279,7 +285,7 @@ text-align: center;
 .gridPadre{
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
     gap: 10px;
 }
 
@@ -317,3 +323,98 @@ text-align: center;
     background-color: rgb(120, 120, 218);
 }
 
+.ilass {
+color: rgb(6, 6, 5);
+font-size: 20px;
+font-weight: bold;
+text-align: center;
+justify-content: center;
+align-items: center;
+margin-right: 50px;
+}
+
+/* paginas productos */
+
+.gridFlex{
+    display: flex;
+    width: 100%;
+    margin: 10px 0px
+}
+
+.seccionFotos{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 10px;
+    width:100% ;
+}
+
+.seccionFotosb{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    width: 100%;
+}
+
+.imagenCamiseta{
+    width:100% ;
+}
+
+.seccionPrecio{
+    width: 100%;
+    padding: 0px 50px;
+}
+
+.seccionPrecio h1{
+    font-size: 0.8em;
+    color: #616060;
+    margin: 0px 0px 0px 0px;
+}
+
+.seccionPrecio p{
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #020303;
+    margin: 0px 0px 0px 0px;
+}
+
+.seccionPrecio .cop {
+    margin-top: 30px;
+    color: rgb(2, 1, 1);
+}
+
+.tallas{
+    margin: 20px 0px;
+}
+
+
+.tallas p{
+    display: inline;
+    color: rgb(69, 72, 72);
+    border: 1px rgb(193, 191, 191) solid;
+    padding: 10px 14px;
+    margin: 0px 20px 0px 0px;
+    cursor: pointer;
+}
+.tallas p:hover{
+    background-color: #c8c1c1;
+}
+
+/* button cesta */
+
+.buttonComprar{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    align-items: center center;
+}
+.buttonComprar button{
+    background-color: rgb(66, 238, 172);
+    margin-top: 10px;
+    border-radius: 10px;
+    border: none;
+    padding: 10px 5px;  
+    color: #f9fbfb;
+    font-size: 20px;  
+}
