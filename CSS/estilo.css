@@ -8,82 +8,6 @@ html {
 }
 
 
-/* Index */
-
-.borderIndex{
-    
-}
-
-.logo a{
-    padding: 40px;
-    font-size: 50px;
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
-}
-
-.containerIndex{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-    margin: 0px 40px;
-}
-
-.categ{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(1, 1fr);
-    justify-content:center;
-    align-items: end;
-    width: 100%;
-    margin: 0px 0px;
-    border: 2px red solid;
-    }
-
-.imagenHombre{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 100%;
-    align-items: center;
-    background-image:  url('../Img/hombre.jpg');
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center center;
-    height: 60vh;
-    border: 2px yellow solid;
-}
-
-.imagenMujer{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 100%;
-    align-items: center;
-    background-image: url(../Img/mujer.jpg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center center;
-    height: 60vh;
-}
-
-.imagenHombre h1{
-    width: 100%;
-    font-size: 30px;
-    margin-top: 0px;   
-    padding: 0px 0px;
-    color: #020303;
-    font-weight: bold;
-    text-decoration: none;
-}
-
-.imagenMujer h1{
-margin-top: 0px;    
-font-size: 30px;
-text-align: center;
-width: 100%;
-}
 
 
 
@@ -96,6 +20,8 @@ width: 100%;
     background-color: rgb(246, 243, 239);
     text-align: center;
     width: 100%;
+    border-top: 1px solid rgb(63, 63, 61);
+    padding: 0px 20px;
 }
 
 .gridOutfit{
@@ -116,7 +42,6 @@ width: 100%;
 }
 
 .sectionA .pe{
-    margin: 10px 20px;
     color: #0b0710;
     padding-top: 30px;} 
 
@@ -128,9 +53,8 @@ width: 100%;
 
 .gridOutfit p{
     text-align: center;
-    font-size: 1em;
-    font-weight: bold;
-}
+    font-size: 0.7em;
+    color: #616060;}
 
 /* section B */
 
@@ -141,10 +65,10 @@ width: 100%;
     align-items: center;
     background-image: url(../Img/portada2.jpg);
     background-position: center center;
-    background-size:contain;
+    background-size: cover;
     background-repeat: no-repeat;
     height: 107vh;
-    border: 2px solid red;
+    margin: 0px;
 }
 
 .sectionB h2{
@@ -167,6 +91,10 @@ width: 100%;
 
 .sectionB p:hover{
     background-color: rgb(98, 94, 107);
+}
+
+.sectionB a{
+    text-decoration: none;
 }
 
 /* section c */
@@ -208,6 +136,7 @@ width: 100%;
     border-radius: 10px;
 }
 
+
 .buttonC{
     color: #faf9fb;
     background-color: #020505;
@@ -218,6 +147,39 @@ width: 100%;
     border: none;
     font-weight:bold ;
 }
+
+.buttonC:hover{
+    background-color: #616060
+}
+
+/* SECTION D */
+
+.sectionD{
+    background: #e6e3e9;
+    padding: 20px 20px;
+}
+
+.gridTop{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;   
+}
+
+.gridTop a, p{
+    text-decoration: none;
+    color: #020303;
+    font-size: 1em;
+}
+
+.sectionD .pe{
+    text-align: center;
+    margin-top: 0px;
+    font-weight: bold;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+
 /* inicio nav */
 
 /* inicio footer */
@@ -229,6 +191,7 @@ width: 100%;
     margin: 0px 0px;
     border-top: 1px #716a6a solid;
     width: 100%;
+    padding: 0px 40px;
 }
 
 .ayudaFooter{
@@ -287,6 +250,24 @@ width: 100%;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(1, 1fr);
     gap: 10px;
+}
+
+@media(max-width:920px){
+    .gridPadre{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        gap: 10px;
+    }
+}
+
+@media(max-width:500px){
+    .gridPadre{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        gap: 10px;
+    }
 }
 
 .productoCasillas{
@@ -400,6 +381,19 @@ margin-right: 50px;
     background-color: #c8c1c1;
 }
 
+.padreDisponibilidad{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.padreDisponibilidad h1{
+    margin-top: 50px;
+    margin-left: 20px;
+    padding: 0px 5px 0px 0px;
+    border-right: 1px solid black ;
+}
+
 /* button cesta */
 
 .buttonComprar{
@@ -417,4 +411,8 @@ margin-right: 50px;
     padding: 10px 5px;  
     color: #f9fbfb;
     font-size: 20px;  
+}
+
+.buttonComprar button:hover{
+    background: steelblue;
 }
