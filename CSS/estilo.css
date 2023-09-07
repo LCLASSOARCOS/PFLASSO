@@ -234,11 +234,13 @@ html {
 
 .dir{
     background-color: #020303;
-    color: aliceblue;
+    color: rgb(243, 246, 248);
     padding: 15px 0px;
     text-align: center;
 }
-
+.dir p{
+    color: #fafafa;
+}
 /* tienda main*/
 
 .borderTienda{
