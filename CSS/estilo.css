@@ -188,13 +188,11 @@ html {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url(../img/portada-mujer1.jpg);
+    background-image: url(../img/portadamujer1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
-  
     background-position: center center;
-    height: 107v
 }
 
 /* inicio nav */
