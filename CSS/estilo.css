@@ -64,10 +64,10 @@ html {
     justify-content: center;
     align-items: center;
     background-image: url(../Img/portada2.jpg);
-    background-position: center center;
+    background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 107vh;
+    height: auto;
     margin: 0px;
 }
 
@@ -85,8 +85,7 @@ html {
     background-color: white;
     padding: 5px 5px;
     border-radius: 10px;
-    cursor: pointer;
-    
+    cursor: pointer;  
 }
 
 .sectionB p:hover{
@@ -188,11 +187,37 @@ html {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url(../img/portadamujer1.jpg);
+    background-image: url(../Img/portadamujer1.jpg);
+    background-position:top;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
-    background-position: center center;
+    height: 70vh;
+    margin: 0px;}
+    
+.sectionE h2{
+        color: rgb(255, 255, 255);
+        margin-top: 200px;
+        align-items: end;
+        font-size: 40px;
+        font-weight: bold;
+        margin: px;
+    }
+    
+.sectionE p {
+        color: rgb(7, 7, 7);
+        background-color: white;
+        padding: 5px 5px;
+        border-radius: 10px;
+        cursor: pointer; 
+    }
+
+
+.sectionE p:hover{
+    background: #616060;
+}
+
+.sectionE a{
+    text-decoration: none;
 }
 
 /* inicio nav */
