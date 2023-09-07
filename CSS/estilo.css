@@ -180,6 +180,23 @@ html {
     font-weight: bold;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
 
+
+/* SECTION E */
+
+.sectionE{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/portada-mujer1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+  
+    background-position: center center;
+    height: 107v
+}
+
 /* inicio nav */
 
 /* inicio footer */
@@ -201,6 +218,7 @@ html {
         flex-direction: column;
         text-align: center;
     }
+ 
 }
 
 .ayudaFooter{
@@ -238,7 +256,11 @@ html {
     width: 100px;
     margin: 0px 10px 20px 10px;
 }
-
+@media(max-width:750px){
+    .mediosDePago{
+        justify-content: center;
+    }
+}
 /* footer final */
 
 .dir{
@@ -246,6 +268,11 @@ html {
     color: rgb(243, 246, 248);
     padding: 15px 0px;
     text-align: center;
+}
+
+@media(max-width:750px){
+    .dir{
+        padding: 10px 20px; }
 }
 .dir p{
     color: #fafafa;
