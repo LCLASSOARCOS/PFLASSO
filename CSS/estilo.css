@@ -12,7 +12,7 @@ html {
 
 
 
-/* inicio */
+/* index */
 
 /* section A */
 
@@ -33,19 +33,10 @@ html {
 
 }
 
-@media(max-width:900px){
-    .gridOutfit{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(2,1fr);
-    }
-}
-
 .sectionA .pe{
     color: #0b0710;
-    padding-top: 30px;} 
-
-
+    padding-top: 30px;
+} 
 
 .imagenOutfit{
     width: 100%;
@@ -170,12 +161,12 @@ html {
 .gridTop a, p{
     text-decoration: none;
     color: #020303;
-    font-size: 1em;
+    font-size: 1.5rem;
 }
 
 .sectionD .pe{
     text-align: center;
-    margin-top: 0px;
+    margin-top: 5px;
     font-weight: bold;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
 
@@ -225,23 +216,14 @@ html {
 /* inicio footer */
 
 .categoriasFooter{
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     flex-wrap: nowrap;    
     background-color:rgb(248, 248, 245);
     margin: 0px 0px;
     border-top: 1px #716a6a solid;
     width: 100%;
     padding: 0px 40px;
-}
-
-@media(max-width:750px){
-    .categoriasFooter{
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-    }
- 
 }
 
 .ayudaFooter{
@@ -279,11 +261,7 @@ html {
     width: 100px;
     margin: 0px 10px 20px 10px;
 }
-@media(max-width:750px){
-    .mediosDePago{
-        justify-content: center;
-    }
-}
+
 /* footer final */
 
 .dir{
@@ -293,10 +271,7 @@ html {
     text-align: center;
 }
 
-@media(max-width:750px){
-    .dir{
-        padding: 10px 20px; }
-}
+
 .dir p{
     color: #fafafa;
 }
@@ -313,56 +288,8 @@ html {
     gap: 10px;
 }
 
-@media(max-width:920px){
-    .gridPadre{
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: repeat(1, 1fr);
-        gap: 10px;
-    }
-}
-
-@media(max-width:500px){
-    .gridPadre{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(1, 1fr);
-        gap: 10px;
-    }
-    .productoComprar{
-        font-size: 0.7em;
-        margin-top: 10px;
-    }
-    .productoCasillas h2{
-        font-size: 0.7em;
-        font-weight: bold;
-        color: black;
-        margin-bottom: 0px;
-    }
-}
-
-@media(max-width:350px){
-    .gridPadre{
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(1, 1fr);
-        gap: 10px;
-    }
-    .productoComprar{
-        font-size: 0.7em;
-        margin-top: 0px;
-    }
-    .productoCasillas h2{
-        font-size: 0.7em;
-        font-weight: bold;
-        color: black;
-        margin-bottom: 0px;
-    }
-}
-
 .productoCasillas{
     text-align: center;
-
 }
 
 .productoImagen{
@@ -390,6 +317,7 @@ html {
     margin-top: 10px;
     cursor: pointer;
 }
+
 .productoComprar:hover{
     background-color: rgb(120, 120, 218);
 }
@@ -515,4 +443,200 @@ margin-right: 50px;
 
 
 
- 
+
+/* responsive-media queries para pantallas de 768px hasta 1023px */
+/* Vista tablet */
+
+/* index */
+
+@media(max-width:1023px){
+
+    /* section A */
+    .sectionA{
+
+    }
+
+    .sectionA p{
+        font-size: 1rem;
+    }
+
+    .sectionA h2{
+        font-size: 1.2rem;
+    }
+
+    .gridOutfit{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2,1fr);
+    }
+
+    .imagenOutfit{
+
+    }
+
+    /* section C */
+
+    .sectionC {
+    }
+
+    .sectionC h1{
+        font-size: 2rem;
+    }
+    .sectionC p{
+        font-size: 1rem;
+    }
+    .formC{
+    }
+    
+    .inputC{
+        width: 300px;
+    }
+
+    .buttonC{
+        width: 300px;
+    }
+
+    /* sectionE */
+
+    .sectionE{
+        height: 50vh;
+    }
+
+    .sectionE h2{
+        font-size: 1.3rem;
+    }
+    .sectionE p{
+        font-size: 0.7rem;
+    }
+
+    .gridTop {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .sectionD p{
+        font-size: 1rem;
+        font-weight: bold;
+    }
+
+    .sectionB{
+        height: 50vh;
+    }
+    .sectionB h2{
+        font-size: 1.3rem;
+        margin-top: 200px;
+        color: #020303;
+    }
+
+    .sectionB p{
+        font-size: 1rem;
+        color: #fafafa;
+        background: #020303;
+    }
+   
+
+    .gridPadre{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        gap: 10px;
+    }
+
+    /* footer tablets */
+
+    .categoriasFooter{
+        display: grid;
+        grid-template-columns:repeat(2, 1fr) ;
+        justify-content: center;
+    }
+    
+    .ayudaFooter{
+        margin: 10px 0px;
+    }
+    
+    .ayudaFooter h4{
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    
+    .parrafoFooter{
+        color: rgb(47, 49, 49);
+        font-size: 13px;
+        text-align: center;    
+    }
+    
+    .mediosDePago{
+        display: flex;
+        flex-direction: row;
+        justify-content:center;
+    }
+  
+    
+    /* footer final */
+    
+    .dir{
+        padding: 10px 5px;
+    }
+
+    .dir p{
+        color: #fafafa;
+        font-size: 1rem;
+    }
+}
+
+@media(max-width:920px){
+    
+}
+
+@media(max-width:500px){
+    .gridPadre{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        gap: 10px;
+    }
+    .productoComprar{
+        font-size: 0.7em;
+        margin-top: 10px;
+    }
+    .productoCasillas h2{
+        font-size: 0.7em;
+        font-weight: bold;
+        color: black;
+        margin-bottom: 0px;
+    }
+}
+
+@media(max-width:350px){
+    .gridPadre{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        gap: 10px;
+    }
+    .productoComprar{
+        font-size: 0.7em;
+        margin-top: 0px;
+    }
+    .productoCasillas h2{
+        font-size: 0.7em;
+        font-weight: bold;
+        color: black;
+        margin-bottom: 0px;
+    }
+}
+
+/* footer */
+
+@media(max-width:750px){
+    .categoriasFooter{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .mediosDePago{
+        justify-content: center;
+    }
+    .dir{
+        padding: 10px 20px; }
+}
+
