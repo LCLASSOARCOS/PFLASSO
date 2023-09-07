@@ -186,12 +186,21 @@ html {
 
 .categoriasFooter{
     display: flex;
+    flex-direction: row;
     flex-wrap: nowrap;    
     background-color:rgb(248, 248, 245);
     margin: 0px 0px;
     border-top: 1px #716a6a solid;
     width: 100%;
     padding: 0px 40px;
+}
+
+@media(max-width:750px){
+    .categoriasFooter{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
 }
 
 .ayudaFooter{
@@ -269,6 +278,35 @@ html {
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(1, 1fr);
         gap: 10px;
+    }
+    .productoComprar{
+        font-size: 0.7em;
+        margin-top: 10px;
+    }
+    .productoCasillas h2{
+        font-size: 0.7em;
+        font-weight: bold;
+        color: black;
+        margin-bottom: 0px;
+    }
+}
+
+@media(max-width:350px){
+    .gridPadre{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        gap: 10px;
+    }
+    .productoComprar{
+        font-size: 0.7em;
+        margin-top: 0px;
+    }
+    .productoCasillas h2{
+        font-size: 0.7em;
+        font-weight: bold;
+        color: black;
+        margin-bottom: 0px;
     }
 }
 
