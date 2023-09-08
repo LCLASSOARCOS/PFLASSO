@@ -68,12 +68,11 @@ html {
     align-items: end;
     font-size: 40px;
     font-weight: bold;
-    margin: px;
 }
 
 .sectionB p{
-    color: rgb(255, 255, 255);
-    background-color: rgb(3, 3, 3);
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
     padding: 5px 5px;
     border-radius: 10px;
     cursor: pointer;  
@@ -101,8 +100,9 @@ html {
 .sectionC h1{
     margin-top: 30px;
     text-align: center;
-    font-size: 50px;
+    font-size: 2.7rem;
     font-weight: bold;
+    padding: 0px 30px;
 }
 
 .sectionC p{
@@ -538,14 +538,12 @@ margin-right: 50px;
     }
     .sectionB h2{
         font-size: 1.7rem;
-        margin-top: 200px;
-        color: #ffffff;
     }
 
     .sectionB p{
         font-size: 0.8rem;
-        color: #fafafa;
-        background: #020303;
+        color: #000000;
+        background: #ffffff;
     }
    
     /* tienda pag */

@@ -84,7 +84,7 @@
 
       <div class="productoCasillas">
         <a href="camisetam1.html">
-          <img class="productoImagen" src="../Img/productos/camiseta-mujer/camiseta111.webp" alt="">
+          <img class="productoImagen" src="../Img/productos/camiseta-mujer/camiseta11111.webp" alt="">
         </a>
         <p class="productoParrafo">Camisa cuadros</p>
         <h2 class="productoPrecio">$30.999</h2>
@@ -92,113 +92,96 @@
       </div>
 
       <div class="productoCasillas">
-        <a href="camisetam2.html">
-          <img class="productoImagen" src="../Img/productos/camiseta-mujer/camiseta22.webp" alt=""></a>
+        <a href="../html/camiseta2.html">
+          <img class="productoImagen" src="../Img/productos/camiseta-mujer/camiseta2.webp" alt=""></a>
         <p class="productoParrafo">Camisa cuadros</p>
         <h2 class="productoPrecio">$30.999</h2>
         <button class="productoComprar">Comprar</button>
       </div>
 
       <div class="productoCasillas">
-        <a href="camisetam3.html">
-          <img class="productoImagen" src="../Img/productos/camiseta-mujer/camiseta3.jpeg" alt=""></a>
-        <p class="productoParrafo">Camisa cuadros</p>
-        <h2 class="productoPrecio">$30.999</h2>
-        <button class="productoComprar">Comprar</button>
-      </div>
-
-      <div class="productoCasillas">
-        <a href="camisetam4.html">
-        <img class="productoImagen" src="../Img/productos/camiseta-mujer/camiseta44.jpg" alt=""></a>
-        <p class="productoParrafo">Camisa cuadros</p>
-        <h2 class="productoPrecio">$30.999</h2>
-        <button class="productoComprar">Comprar</button>
-      </div>
-
-      <div class="productoCasillas">
-        <a href="camisetam5.html">
-        <img class="productoImagen" src="../Img/productos/camiseta-mujer/camiseta5555.jpg" alt=""></a>
-        <p class="productoParrafo">Camisa cuadros</p>
-        <h2 class="productoPrecio">$30.999</h2>
-        <button class="productoComprar">Comprar</button>
-      </div>
-
-      <div class="productoCasillas">
-        <a href="camisetam1.html">
-        <img class="productoImagen" src="../Img/productos/camiseta-mujer/camiseta3.jpeg" alt=""></a>
-        <p class="productoParrafo">Camisa cuadros</p>
-        <h2 class="productoPrecio">$30.999</h2>
-        <button class="productoComprar">Comprar</button>
-      </div>
-
-      <div class="productoCasillas">
-        <a href="camisetam1.html">
-        <img class="productoImagen" src="../Img/productos/camiseta-mujer/camiseta55.jpg" alt=""></a>
-        <p class="productoParrafo">Camisa cuadros</p>
-        <h2 class="productoPrecio">$30.999</h2>
-        <button class="productoComprar">Comprar</button>
-      </div>
-
-      <div class="productoCasillas">
-        <a href="camisetam1.html">
-        <img class="productoImagen" src="../Img/productos/camiseta-mujer/camiseta4.jpg" alt=""></a>
-        <p class="productoParrafo">Camisa cuadros</p>
-        <h2 class="productoPrecio">$30.999</h2>
-        <button class="productoComprar">Comprar</button>
-      </div>
-
-      <div class="productoCasillas">
-        <a href="camisetam1.html">
-          <img class="productoImagen" src="../Img/productos/camiseta-mujer/camiseta111.webp" alt="">
-        </a>
-        <p class="productoParrafo">Camisa cuadros</p>
-        <h2 class="productoPrecio">$30.999</h2>
-        <button class="productoComprar">Comprar</button>
-      </div>
-
-      <div class="productoCasillas">
-        <a href="camisetam1.html">
-        <img class="productoImagen" src="../Img/productos/camiseta-mujer/camiseta6.jpg" alt=""></a>
-        <p class="productoParrafo">Camisa cuadros</p>
-        <h2 class="productoPrecio">$30.999</h2>
-        <button class="productoComprar">Comprar</button>
-      </div>
-
-      <div class="productoCasillas">
-        <a href="camisetam1.html">
-          <img class="productoImagen" src="../Img/productos/camiseta-mujer/camiseta4.jpg" alt=""> </a>
-        <p class="productoParrafo">Camisa cuadros</p>
-        <h2 class="productoPrecio">$30.999</h2>
-        <button class="productoComprar">Comprar</button>
-      </div>
-
-      <div class="productoCasillas">
-        <a href="camisetam1.html">
-        <img class="productoImagen" src="../Img/productos/camiseta-mujer/camiseta5.jpg" alt=""></a>
-        <p class="productoParrafo">Camisa cuadros</p>
-        <h2 class="productoPrecio">$30.999</h2>
-        <button class="productoComprar">Comprar</button>
-      </div>
-
-      <div class="productoCasillas">
-        <a href="camisetam1.html">
-          <img class="productoImagen" src="../Img/productos/camiseta-mujer/camiseta22.webp" alt=""></a>
-        <p class="productoParrafo">Camisa cuadros</p>
-        <h2 class="productoPrecio">$30.999</h2>
-        <button class="productoComprar">Comprar</button>
-      </div>
-
-      <div class="productoCasillas">
-        <a href="camisetam1.html">
-        <img class="productoImagen" src="../Img/productos/camiseta-mujer/camiseta3.jpeg" alt=""></a>
-        <p class="productoParrafo">Camisa cuadros</p>
-        <h2 class="productoPrecio">$30.999</h2>
-        <button class="productoComprar">Comprar</button>
-      </div>
-
-      <div class="productoCasillas">
-        <a href="camisetam1.html">
+        <a href="camiseta2.html">
           <img class="productoImagen" src="../Img/productos/camiseta-mujer/camiseta11111.webp" alt=""></a>
+        <p class="productoParrafo">Camisa cuadros</p>
+        <h2 class="productoPrecio">$30.999</h2>
+        <button class="productoComprar">Comprar</button>
+      </div>
+      <div class="productoCasillas">
+        <img class="productoImagen" src="../Img/productos/camiseta-mujer/camiseta2.webp" alt="">
+        <p class="productoParrafo">Camisa cuadros</p>
+        <h2 class="productoPrecio">$30.999</h2>
+        <button class="productoComprar">Comprar</button>
+      </div>
+      <div class="productoCasillas">
+        <img class="productoImagen" src="../Img/productos/camiseta-mujer/camiseta11111.webp" alt="">
+        <p class="productoParrafo">Camisa cuadros</p>
+        <h2 class="productoPrecio">$30.999</h2>
+        <button class="productoComprar">Comprar</button>
+      </div>
+      <div class="productoCasillas">
+        <img class="productoImagen" src="../Img/productos/camiseta-mujer/camiseta2.webp" alt="">
+        <p class="productoParrafo">Camisa cuadros</p>
+        <h2 class="productoPrecio">$30.999</h2>
+        <button class="productoComprar">Comprar</button>
+      </div>
+      <div class="productoCasillas">
+        <img class="productoImagen" src="../Img/productos/camiseta-mujer/camiseta11111.webp" alt="">
+        <p class="productoParrafo">Camisa cuadros</p>
+        <h2 class="productoPrecio">$30.999</h2>
+        <button class="productoComprar">Comprar</button>
+      </div>
+      <div class="productoCasillas">
+        <img class="productoImagen" src="../Img/productos/camiseta-mujer/camiseta2.webp" alt="">
+        <p class="productoParrafo">Camisa cuadros</p>
+        <h2 class="productoPrecio">$30.999</h2>
+        <button class="productoComprar">Comprar</button>
+      </div>
+      <div class="productoCasillas">
+        <a href="../html/camisetas.html">
+          <img class="productoImagen" src="../Img/productos/camiseta-mujer/camiseta11111.webp" alt="">
+        </a>
+        <p class="productoParrafo">Camisa cuadros</p>
+        <h2 class="productoPrecio">$30.999</h2>
+        <button class="productoComprar">Comprar</button>
+      </div>
+      <div class="productoCasillas">
+        <img class="productoImagen" src="../Img/productos/camiseta-mujer/camiseta2.webp" alt="">
+        <p class="productoParrafo">Camisa cuadros</p>
+        <h2 class="productoPrecio">$30.999</h2>
+        <button class="productoComprar">Comprar</button>
+      </div>
+      <div class="productoCasillas">
+        <a href="../html/camisetas.html">
+          <img class="productoImagen" src="../Img/productos/camiseta-mujer/camiseta11111.webp" alt="">
+        </a>
+        <p class="productoParrafo">Camisa cuadros</p>
+        <h2 class="productoPrecio">$30.999</h2>
+        <button class="productoComprar">Comprar</button>
+      </div>
+      <div class="productoCasillas">
+        <img class="productoImagen" src="../Img/productos/camiseta-mujer/camiseta2.webp" alt="">
+        <p class="productoParrafo">Camisa cuadros</p>
+        <h2 class="productoPrecio">$30.999</h2>
+        <button class="productoComprar">Comprar</button>
+      </div>
+      <div class="productoCasillas">
+        <a href="../html/camisetas.html">
+          <img class="productoImagen" src="../Img/productos/camiseta-mujer/camiseta11111.webp" alt="">
+        </a>
+        <p class="productoParrafo">Camisa cuadros</p>
+        <h2 class="productoPrecio">$30.999</h2>
+        <button class="productoComprar">Comprar</button>
+      </div>
+      <div class="productoCasillas">
+        <img class="productoImagen" src="../Img/productos/camiseta-mujer/camiseta2.webp" alt="">
+        <p class="productoParrafo">Camisa cuadros</p>
+        <h2 class="productoPrecio">$30.999</h2>
+        <button class="productoComprar">Comprar</button>
+      </div>
+      <div class="productoCasillas">
+        <a href="../html/camisetas.html">
+          <img class="productoImagen" src="../Img/productos/camiseta-mujer/camiseta11111.webp" alt="">
+        </a>
         <p class="productoParrafo">Camisa cuadros</p>
         <h2 class="productoPrecio">$30.999</h2>
         <button class="productoComprar">Comprar</button>
