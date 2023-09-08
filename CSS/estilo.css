@@ -267,13 +267,14 @@ html {
 .dir{
     background-color: #020303;
     color: rgb(243, 246, 248);
-    padding: 15px 0px;
+    padding: 10px 10px;
     text-align: center;
 }
 
 
 .dir p{
     color: #fafafa;
+    font-size: 1rem;
 }
 /* tienda main*/
 
