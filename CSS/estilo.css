@@ -55,7 +55,7 @@ html {
     justify-content: center;
     align-items: center;
     background-image: url(../Img/portada2.jpg);
-    background-position: top;
+    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     height: auto;
@@ -72,8 +72,8 @@ html {
 }
 
 .sectionB p{
-    color: rgb(7, 7, 7);
-    background-color: white;
+    color: rgb(255, 255, 255);
+    background-color: rgb(3, 3, 3);
     padding: 5px 5px;
     border-radius: 10px;
     cursor: pointer;  
@@ -158,15 +158,19 @@ html {
     text-align: center;   
 }
 
-.gridTop a, p{
+.gridTop p{
     text-decoration: none;
     color: #020303;
-    font-size: 1.5rem;
+    font-size: 0.8rem;
+}
+.gridTop a{
+    text-decoration: none;
 }
 
 .sectionD .pe{
+    font-size: 1.5rem;
     text-align: center;
-    margin-top: 5px;
+    margin: 10px 0px;
     font-weight: bold;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
 
@@ -182,16 +186,15 @@ html {
     background-position:top;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 70vh;
+    height: auto;
     margin: 0px;}
     
 .sectionE h2{
         color: rgb(255, 255, 255);
         margin-top: 200px;
         align-items: end;
-        font-size: 40px;
+        font-size: 2rem;
         font-weight: bold;
-        margin: px;
     }
     
 .sectionE p {
@@ -200,6 +203,7 @@ html {
         padding: 5px 5px;
         border-radius: 10px;
         cursor: pointer; 
+        font-size: 0.7rem;
     }
 
 
@@ -470,6 +474,9 @@ margin-right: 50px;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(2,1fr);
     }
+    .gridOutfit p{
+        font-size: 0.8rem;
+    }
 
     .imagenOutfit{
 
@@ -495,41 +502,53 @@ margin-right: 50px;
     /* sectionE */
 
     .sectionE{
-        height: 60vh;
+        height: auto;
     }
 
     .sectionE h2{
-        font-size: 2.4rem;
+        font-size: 1.7rem;
     }
     .sectionE p{
-        font-size: 1.1rem;
+        font-size: 0.6rem;
     }
 
     /* Section D */
 
-    .gridTop {
+    .sectionD{
+    }
+    
+    .gridTop{
         grid-template-columns: repeat(3, 1fr);
     }
-    .sectionD p{
-        font-size: 1.4rem;
-        font-weight: bold;
+    
+    .gridTop p{
+        font-size: 0.8rem;
+        margin-top: 10px;
     }
+  
+    
+    .sectionD .pe{
+        font-size: 1.8rem;
+        margin-bottom: 20px;    
+    }
+    /* section B */
 
     .sectionB{
-        height: 50vh;
+        height: auto;
     }
     .sectionB h2{
-        font-size: 1.3rem;
+        font-size: 1.7rem;
         margin-top: 200px;
-        color: #020303;
+        color: #ffffff;
     }
 
     .sectionB p{
-        font-size: 1rem;
+        font-size: 0.8rem;
         color: #fafafa;
         background: #020303;
     }
    
+    /* tienda pag */
 
     .gridPadre{
         display: grid;
@@ -588,28 +607,67 @@ margin-right: 50px;
 
     /* INDEX */
 
+        /* section A */
+        .sectionA{
+
+        }
+    
+        .sectionA p{
+            font-size: 0.8rem;
+        }
+    
+        .sectionA h2{
+            font-size: 1rem;
+            margin-bottom: 20px;
+        }
+    
+        .gridOutfit p{
+            font-size: 0.7rem;
+        }
+
     /* sectionE */
 
     .sectionE{
-        height: 50vh;
+        height: auto;
     }
 
     .sectionE h2{
-        font-size: 1.8rem;
+        font-size: 1.5rem;
     }
     .sectionE p{
-        font-size: 0.8rem;
+        font-size: 0.5rem;
     }
 
-    /* section D */
+   /* Section D */
 
-    .gridTop p {
-        font-size: .8rem;
+   .sectionD{
     }
 
-    .sectionD .pe {
-        font-size: 1.5rem;
-        font-weight: bold;
+    .gridTop{
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .gridTop p{
+        font-size: 0.7rem;
+    }
+
+
+    .sectionD .pe{
+         font-size: 1.4rem;
+    }
+
+    /* section B */
+
+    .sectionB{
+        height: auto;
+    }
+    .sectionB h2{
+        font-size: 1.4rem;
+        color: floralwhite;
+    }
+
+    .sectionB p{
+        font-size: 0.5rem;
     }
 
     /* section C */
