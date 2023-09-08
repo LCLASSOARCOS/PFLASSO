@@ -477,18 +477,13 @@ margin-right: 50px;
 
     /* section C */
 
-    .sectionC {
-    }
-
     .sectionC h1{
         font-size: 2rem;
     }
     .sectionC p{
         font-size: 1rem;
     }
-    .formC{
-    }
-    
+
     .inputC{
         width: 300px;
     }
@@ -500,22 +495,23 @@ margin-right: 50px;
     /* sectionE */
 
     .sectionE{
-        height: 50vh;
+        height: 60vh;
     }
 
     .sectionE h2{
-        font-size: 1.3rem;
+        font-size: 2.4rem;
     }
     .sectionE p{
-        font-size: 0.7rem;
+        font-size: 1.1rem;
     }
+
+    /* Section D */
 
     .gridTop {
         grid-template-columns: repeat(3, 1fr);
     }
-
     .sectionD p{
-        font-size: 1rem;
+        font-size: 1.4rem;
         font-weight: bold;
     }
 
@@ -588,10 +584,75 @@ margin-right: 50px;
 /* 0 hasta 768px */
 
 
-@media(max-width:500px){
+ @media(max-width:650px){
+
+    /* INDEX */
+
+    /* sectionE */
+
+    .sectionE{
+        height: 50vh;
+    }
+
+    .sectionE h2{
+        font-size: 1.8rem;
+    }
+    .sectionE p{
+        font-size: 0.8rem;
+    }
+
+    /* section D */
+
+    .gridTop p {
+        font-size: .8rem;
+    }
+
+    .sectionD .pe {
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+
+    /* section C */
+
+    .sectionC h1{
+        font-size: 1.6rem;
+    }
+    .sectionC p{
+        font-size: 1rem;
+    }
+    .inputC{
+        width: 250px;
+    }
+
+    .buttonC{
+        width: 250px;
+    }
+
+    /* footer */
+    .categoriasFooter{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .mediosDePago{
+        justify-content: center;
+    }
+    
+    /* footer final */
+    
+    .dir{
+        padding: 5px 10px;
+    }
+    .dir p{
+        color: #fafafa;
+        font-size: 0.8rem;
+    }
+
+
+    /* pagina tienda */
     .gridPadre{
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(4, 1fr);
         grid-template-rows: repeat(1, 1fr);
         gap: 10px;
     }
@@ -607,7 +668,7 @@ margin-right: 50px;
     }
 }
 
-@media(max-width:350px){
+/* @media(max-width:350px){
     .gridPadre{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
@@ -624,11 +685,11 @@ margin-right: 50px;
         color: black;
         margin-bottom: 0px;
     }
-}
+} */
 
 /* footer */
 
-@media(max-width:750px){
+/* @media(max-width:750px){
     .categoriasFooter{
         display: flex;
         flex-direction: column;
@@ -639,5 +700,5 @@ margin-right: 50px;
     }
     .dir{
         padding: 10px 20px; }
-}
+} */
 
