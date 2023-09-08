@@ -583,9 +583,9 @@ margin-right: 50px;
     }
 }
 
-@media(max-width:920px){
-    
-}
+/* Ajustes especificos para version mobile */
+/* 0 hasta 768px */
+
 
 @media(max-width:500px){
     .gridPadre{
