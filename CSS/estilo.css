@@ -288,7 +288,7 @@ html {
 
 .gridPadre{
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(1, 1fr);
     gap: 10px;
 }
@@ -303,13 +303,13 @@ html {
 }
 
 .productoCasillas h2{
-    font-size: 1em;
+    font-size: 1rem;
     font-weight: bold;
     color: black;
 }
 
 .productoParrafo{
-    font-size: 14px;
+    font-size: 0.9rem;
     margin-bottom: 5px;
 }
 
@@ -319,7 +319,7 @@ html {
     border: none;
     padding: 5px 5px;
     border-radius: 5px;
-    margin-top: 10px;
+    margin-top: 0px;
     cursor: pointer;
 }
 
@@ -551,8 +551,6 @@ margin-right: 50px;
     .gridPadre{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: repeat(1, 1fr);
-        gap: 10px;
     }
 
     /* footer tablets */
@@ -708,53 +706,19 @@ margin-right: 50px;
     /* pagina tienda */
     .gridPadre{
         display: grid;
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(1, 1fr);
         gap: 10px;
-    }
-    .productoComprar{
-        font-size: 0.7em;
-        margin-top: 10px;
-    }
-    .productoCasillas h2{
-        font-size: 0.7em;
-        font-weight: bold;
-        color: black;
-        margin-bottom: 0px;
     }
 }
 
-/* @media(max-width:350px){
+     @media(max-width:350px){
     .gridPadre{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(1, 1fr);
-        gap: 10px;
     }
-    .productoComprar{
-        font-size: 0.7em;
-        margin-top: 0px;
-    }
-    .productoCasillas h2{
-        font-size: 0.7em;
-        font-weight: bold;
-        color: black;
-        margin-bottom: 0px;
-    }
-} */
 
-/* footer */
+}
 
-/* @media(max-width:750px){
-    .categoriasFooter{
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-    }
-    .mediosDePago{
-        justify-content: center;
-    }
-    .dir{
-        padding: 10px 20px; }
-} */
+
 
