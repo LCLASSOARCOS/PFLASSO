@@ -341,49 +341,27 @@ margin-right: 50px;
 
 /* grid */
 
-.gridFlex{
+.gridFlexx{
     display: grid;
     width: 100%;
-    margin: 10px 0px;
-    border: 2px red solid;
-    background-image: url(../Img/productos/camiseta-mujer/camiseta1.webp);
-    background-size: contain;
-    background-repeat: no-repeat;
 }
 
 .seccionFotos{
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
-    gap: 10px;
-    width:100% ;
-}
-
-.seccionPrecio{
-    width: 100%;
-    border: 2px blueviolet solid;
-}
-
-.seccionFoos img{
-    background-image: url(../Img/productos/camiseta-mujer/camiseta1.webp);
-    background-size: contain;
-    background-repeat: no-repeat;
+    grid-template-columns: repeat(2, 1fr);
 }
 
 .seccionFotosb{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
-    width: %;
 }
 
 .imagenCamiseta{
-    width:100%;
-background-image: url(../Img/productos/camiseta-mujer/camiseta1.webp);
-background-position: center;
-background-size: contain;
-border: 2px blue solid;
+    width: 100%;
 }
+
+
 
 /* section precio */
 
@@ -618,6 +596,20 @@ border: 2px blue solid;
     .dir p{
         color: #fafafa;
         font-size: 1rem;
+    }
+}
+
+/* pagina de comprar prendas */
+
+@media(max-width:850px){
+
+    .seccionFotos{
+        display: grid;
+        grid-template-columns: 1fr fr;
+        grid-template-rows: 1fr;
+        gap: 10px;
+        width:100% ;
+        justify-content: center;
     }
 }
 
