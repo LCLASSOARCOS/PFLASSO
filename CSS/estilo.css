@@ -94,8 +94,7 @@ html {
     justify-content: center;
     background-color: rgb(228, 244, 215);
     border-top: 1px rgb(96, 89, 89) solid;
-    padding: 100px 0px;
-}
+    height: auto;}
 
 .sectionC h1{
     margin-top: 30px;
@@ -132,6 +131,7 @@ html {
     background-color: #020505;
     width: 400px;
     margin-top: 20px;
+    margin-bottom: 30px;
     border-radius: 10px;
     padding: 10px 40px;
     border: none;
@@ -348,13 +348,14 @@ margin-right: 50px;
 
 .seccionFotos{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2,1fr);
 }
 
 .seccionFotosb{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
+    margin: 20px 10px;
 }
 
 .imagenCamiseta{
@@ -368,6 +369,7 @@ margin-right: 50px;
 .seccionPrecio{
     width: 100%;
     padding: 0px 50px;
+    border: 2px red solid;
 }
 
 .seccionPrecio h1{
@@ -446,7 +448,9 @@ margin-right: 50px;
 /* te puede interesar */
 
 .like{
-    margin: 70px 20px 10px 20px;
+    text-align: center;
+    font-size: 1.2rem;    
+    margin-top: 50px;
 }
 /* formulario pagina de contacto */
 
@@ -459,6 +463,31 @@ margin-right: 50px;
 /* index */
 
 @media(max-width:1023px){
+
+    .gridFlexx{
+        justify-content: center;
+    }
+
+    .seccionFotos{
+        display: grid;
+        grid-template-columns: 1fr ;
+        border: 2px black solid;
+        text-align: center;
+    }
+
+    .seccionPrecio{
+        margin-top: 20px;
+        justify-content: center;
+    }
+
+     .buttonComprar{
+        margin-le;
+    }
+
+    .padreDisponibilidad{
+        justify-content: center;
+    }
+
 
     /* section A */
     .sectionA{
