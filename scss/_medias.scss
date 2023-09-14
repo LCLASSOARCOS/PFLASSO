@@ -1,0 +1,305 @@
+/* responsive-media queries para pantallas de 768px hasta 1023px */
+/* Vista tablet */
+
+/* index */
+
+@media(max-width:1023px){
+
+    .gridFlexx{
+        justify-content: center;
+    }
+
+    .seccionFotos{
+        display: grid;
+        grid-template-columns: 1fr ;
+        border: 2px black solid;
+        text-align: center;
+    }
+
+    .seccionPrecio{
+        margin-top: 20px;
+        justify-content: center;
+    }
+
+    .padreDisponibilidad{
+        justify-content: center;
+    }
+
+
+    /* section A */
+    .sectionA{
+
+    }
+
+    .sectionA p{
+        font-size: 1rem;
+    }
+
+    .sectionA h2{
+        font-size: 1.2rem;
+    }
+
+    .gridOutfit{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2,1fr);
+    }
+    .gridOutfit p{
+        font-size: 0.8rem;
+    }
+
+    .imagenOutfit{
+
+    }
+
+    /* section C */
+
+    .sectionC h1{
+        font-size: 2rem;
+    }
+    .sectionC p{
+        font-size: 1rem;
+    }
+
+    .inputC{
+        width: 300px;
+    }
+
+    .buttonC{
+        width: 300px;
+    }
+
+    /* sectionE */
+
+    .sectionE{
+        height: auto;
+    }
+
+    .sectionE h2{
+        font-size: 1.7rem;
+    }
+    .sectionE p{
+        font-size: 0.6rem;
+    }
+
+    /* Section D */
+
+    .sectionD{
+    }
+    
+    .gridTop{
+        grid-template-columns: repeat(3, 1fr);
+    }
+    
+    .gridTop p{
+        font-size: 0.8rem;
+        margin-top: 10px;
+    }
+  
+    
+    .sectionD .pe{
+        font-size: 1.8rem;
+        margin-bottom: 20px;    
+    }
+    /* section B */
+
+    .sectionB{
+        height: auto;
+    }
+    .sectionB h2{
+        font-size: 1.7rem;
+    }
+
+    .sectionB p{
+        font-size: 0.8rem;
+        color: #000000;
+        background: #ffffff;
+    }
+   
+    /* tienda pag */
+
+    .gridPadre{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    /* footer tablets */
+
+    .categoriasFooter{
+        display: grid;
+        grid-template-columns:repeat(2, 1fr) ;
+        justify-content: center;
+    }
+    
+    .ayudaFooter{
+        margin: 10px 0px;
+    }
+    
+    .ayudaFooter h4{
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    
+    .parrafoFooter{
+        color: rgb(47, 49, 49);
+        font-size: 13px;
+        text-align: center;    
+    }
+    
+    .mediosDePago{
+        display: flex;
+        flex-direction: row;
+        justify-content:center;
+    }
+  
+    
+    /* footer final */
+    
+    .dir{
+        padding: 10px 5px;
+    }
+
+    .dir p{
+        color: #fafafa;
+        font-size: 1rem;
+    }
+}
+
+/* pagina de comprar prendas */
+
+@media(max-width:850px){
+
+    .seccionFotos{
+        display: grid;
+        grid-template-columns: 1fr fr;
+        grid-template-rows: 1fr;
+        gap: 10px;
+        width:100% ;
+        justify-content: center;
+    }
+}
+
+/* Ajustes especificos para version mobile */
+/* 0 hasta 768px */
+
+
+ @media(max-width:650px){
+
+    /* INDEX */
+
+        /* section A */
+        .sectionA{
+
+        }
+    
+        .sectionA p{
+            font-size: 0.8rem;
+        }
+    
+        .sectionA h2{
+            font-size: 1rem;
+            margin-bottom: 20px;
+        }
+    
+        .gridOutfit p{
+            font-size: 0.7rem;
+        }
+
+    /* sectionE */
+
+    .sectionE{
+        height: auto;
+    }
+
+    .sectionE h2{
+        font-size: 1.5rem;
+    }
+    .sectionE p{
+        font-size: 0.5rem;
+    }
+
+   /* Section D */
+
+   .sectionD{
+    }
+
+    .gridTop{
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .gridTop p{
+        font-size: 0.7rem;
+    }
+
+
+    .sectionD .pe{
+         font-size: 1.4rem;
+    }
+
+    /* section B */
+
+    .sectionB{
+        height: auto;
+    }
+    .sectionB h2{
+        font-size: 1.4rem;
+        color: floralwhite;
+    }
+
+    .sectionB p{
+        font-size: 0.5rem;
+    }
+
+    /* section C */
+
+    .sectionC h1{
+        font-size: 1.6rem;
+    }
+    .sectionC p{
+        font-size: 1rem;
+    }
+    .inputC{
+        width: 250px;
+    }
+
+    .buttonC{
+        width: 250px;
+    }
+
+    /* footer */
+    .categoriasFooter{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .mediosDePago{
+        justify-content: center;
+    }
+    
+    /* footer final */
+    
+    .dir{
+        padding: 5px 10px;
+    }
+    .dir p{
+        color: #fafafa;
+        font-size: 0.8rem;
+    }
+
+
+    /* pagina tienda */
+    .gridPadre{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        gap: 10px;
+    }
+}
+
+     @media(max-width:350px){
+    .gridPadre{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+}

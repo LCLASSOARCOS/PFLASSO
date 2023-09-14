@@ -1,0 +1,113 @@
+/* PAGINAS PRODUCTOS */
+
+/* grid */
+
+.gridFlexx {
+    display: grid;
+    width: 100%;
+  }
+  
+  .seccionFotos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .seccionFotosb {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin: 20px 10px;
+  }
+  
+  .imagenCamiseta {
+    width: 100%;
+  }
+  
+  /* section precio */
+  
+  .seccionPrecio {
+    width: 100%;
+    padding: 0px 50px;
+    border: 2px red solid;
+  
+    h1 {
+      font-size: 0.8em;
+      color: #616060;
+      margin: 0px 0px 0px 0px;
+    }
+  
+    p {
+      font-size: 1.2em;
+      font-weight: bold;
+      color: #020303;
+      margin: 0px 0px 0px 0px;
+    }
+  
+    .cop {
+      margin-top: 30px;
+      color: rgb(2, 1, 1);
+    }
+  }
+  
+  .tallas {
+    margin: 20px 0px;
+  
+    p {
+      display: inline;
+      color: rgb(69, 72, 72);
+      border: 1px rgb(193, 191, 191) solid;
+      padding: 10px 14px;
+      margin: 0px 20px 0px 0px;
+      cursor: pointer;
+  
+      &:hover {
+        background-color: #c8c1c1;
+      }
+    }
+  }
+  
+  .padreDisponibilidad {
+    display: flex;
+    flex-direction: row;
+  
+    h1 {
+      margin-top: 60px;
+      margin-left: 10px;
+      padding: 0px 5px 0px 0px;
+      border-right: 1px solid black;
+    }
+  }
+  
+  /* button cesta */
+  
+  .buttonComprar {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    align-items: center center;
+  
+    button {
+      background-color: rgb(66, 238, 172);
+      margin-top: 10px;
+      border-radius: 10px;
+      border: none;
+      padding: 10px 5px;
+      color: #f9fbfb;
+      font-size: 20px;
+  
+      &:hover {
+        background: steelblue;
+      }
+    }
+  }
+  
+  /* pagina m1 */
+  /* te puede interesar */
+  
+  .like {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 50px;
+  }
+  

@@ -1,0 +1,47 @@
+/* tienda main*/
+
+.borderTienda {
+    margin: 10px 10px;
+  }
+  
+  .gridPadre {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 10px;
+  }
+  
+  .productoCasillas {
+    text-align: center;
+  }
+  
+  .productoImagen {
+    width: 100%;
+    border-radius: 2px;
+  }
+  
+  .productoCasillas h2 {
+    font-size: 1rem;
+    font-weight: bold;
+    color: black;
+  }
+  
+  .productoParrafo {
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+  }
+  
+  .productoComprar {
+    background-color: rgb(67, 37, 187);
+    color: aliceblue;
+    border: none;
+    padding: 5px 5px;
+    border-radius: 5px;
+    margin-top: 0px;
+    cursor: pointer;
+  
+    &:hover {
+      background-color: rgb(120, 120, 218);
+    }
+  }
+  
