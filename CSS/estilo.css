@@ -28,6 +28,7 @@ html {
 .sectionA .pe {
   color: #0b0710;
   padding-top: 30px;
+  font-family: "roboto", "Montserrat", sans-serif;
 }
 
 .imagenOutfit {
@@ -38,6 +39,7 @@ html {
   text-align: center;
   font-size: 0.7em;
   color: #616060;
+  font-family: "roboto", "Montserrat", sans-serif;
 }
 
 /* section B */
@@ -59,6 +61,7 @@ html {
   align-items: end;
   font-size: 40px;
   font-weight: bold;
+  font-family: "roboto", "Montserrat", sans-serif;
 }
 .sectionB p {
   color: rgb(0, 0, 0);
@@ -66,6 +69,7 @@ html {
   padding: 5px 5px;
   border-radius: 10px;
   cursor: pointer;
+  font-family: "roboto", "Montserrat", sans-serif;
 }
 .sectionB p:hover {
   background-color: rgb(98, 94, 107);
@@ -89,10 +93,12 @@ html {
   font-size: 2.7rem;
   font-weight: bold;
   padding: 0px 30px;
+  font-family: "roboto", "Montserrat", sans-serif;
 }
 .sectionC p {
   text-align: center;
   margin-top: 30px;
+  font-family: "roboto", "Montserrat", sans-serif;
 }
 
 .formC {
@@ -144,6 +150,7 @@ html {
   text-decoration: none;
   color: #020303;
   font-size: 0.8rem;
+  font-family: "roboto", "Montserrat", sans-serif;
 }
 .gridTop a {
   text-decoration: none;
@@ -154,7 +161,7 @@ html {
   text-align: center;
   margin: 10px 0px;
   font-weight: bold;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: "roboto", "Montserrat", sans-serif;
 }
 
 /* SECTION E */
@@ -176,6 +183,7 @@ html {
   align-items: end;
   font-size: 2rem;
   font-weight: bold;
+  font-family: "roboto", "Montserrat", sans-serif;
 }
 .sectionE p {
   color: rgb(7, 7, 7);
@@ -184,6 +192,7 @@ html {
   border-radius: 10px;
   cursor: pointer;
   font-size: 0.7rem;
+  font-family: "roboto", "Montserrat", sans-serif;
 }
 .sectionE p:hover {
   background: #616060;
@@ -214,11 +223,13 @@ html {
   color: #020505;
   font-weight: bold;
   font-size: 15px;
+  font-family: "roboto", "Montserrat", sans-serif;
 }
 
 .parrafoFooter {
   color: rgb(47, 49, 49);
   font-size: 13px;
+  font-family: "roboto", "Montserrat", sans-serif;
 }
 
 .mediosDePago {
@@ -277,11 +288,13 @@ html {
   font-size: 1rem;
   font-weight: bold;
   color: black;
+  font-family: "roboto", "Montserrat", sans-serif;
 }
 
 .productoParrafo {
   font-size: 0.9rem;
   margin-bottom: 5px;
+  font-family: "roboto", "Montserrat", sans-serif;
 }
 
 .productoComprar {
@@ -292,6 +305,7 @@ html {
   border-radius: 5px;
   margin-top: 0px;
   cursor: pointer;
+  font-family: "roboto", "Montserrat", sans-serif;
 }
 .productoComprar:hover {
   background-color: rgb(120, 120, 218);
