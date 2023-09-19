@@ -22,13 +22,16 @@
   .imagenCamiseta {
     width: 100%;
   }
+
+  .seccionImagen{
+    margin: 10px 30px;
+  }
   
   /* section precio */
   
   .seccionPrecio {
     width: 100%;
     padding: 0px 50px;
-    border: 2px red solid;
   
     h1 {
       font-size: 0.8em;
