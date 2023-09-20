@@ -3,177 +3,186 @@
 
 /* index */
 
-@media(max-width:1023px){
+@media(max-width:1023px) {
 
-    .gridFlexx{
+    .gridFlexx {
         justify-content: center;
     }
 
-    .seccionFotos{
+    .seccionFotos {
         display: grid;
-        grid-template-columns: 1fr ;
+        grid-template-columns: 1fr;
         text-align: center;
     }
 
-    .seccionPrecio{
+    .seccionPrecio {
         margin-top: 20px;
         justify-content: center;
     }
 
-    .padreDisponibilidad{
+    .padreDisponibilidad {
         justify-content: center;
     }
 
 
     /* section A */
-    .sectionA{
+    .sectionA {}
 
-    }
-
-    .sectionA p{
+    .sectionA p {
         font-size: 1rem;
     }
 
-    .sectionA h2{
+    .sectionA h2 {
         font-size: 1.2rem;
     }
 
-    .gridOutfit{
+    .gridOutfit {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(2,1fr);
+        grid-template-rows: repeat(2, 1fr);
     }
-    .gridOutfit p{
+
+    .gridOutfit p {
         font-size: 0.8rem;
     }
 
-    .imagenOutfit{
-
-    }
+    .imagenOutfit {}
 
     /* section C */
 
-    .sectionC h1{
+    .sectionC h1 {
         font-size: 2rem;
     }
-    .sectionC p{
+
+    .sectionC p {
         font-size: 1rem;
     }
 
-    .inputC{
+    .inputC {
         width: 300px;
     }
 
-    .buttonC{
+    .buttonC {
         width: 300px;
     }
 
     /* sectionE */
 
-    .sectionE{
+    .sectionE {
         height: auto;
     }
 
-    .sectionE h2{
+    .sectionE h2 {
         font-size: 1.7rem;
     }
-    .sectionE p{
+
+    .sectionE p {
         font-size: 0.6rem;
     }
 
     /* Section D */
 
-    .sectionD{
-    }
-    
-    .gridTop{
+    .sectionD {}
+
+    .gridTop {
         grid-template-columns: repeat(3, 1fr);
     }
-    
-    .gridTop p{
+
+    .gridTop p {
         font-size: 0.8rem;
         margin-top: 10px;
     }
-  
-    
-    .sectionD .pe{
+
+
+    .sectionD .pe {
         font-size: 1.8rem;
-        margin-bottom: 20px;    
+        margin-bottom: 20px;
     }
+
     /* section B */
 
-    .sectionB{
+    .sectionB {
         height: auto;
     }
-    .sectionB h2{
+
+    .sectionB h2 {
         font-size: 1.7rem;
     }
 
-    .sectionB p{
+    .sectionB p {
         font-size: 0.8rem;
-        color: #000000;
-        background: #ffffff;
+        color: $color-negro;
+        background: $color-blanco;
     }
-   
+
     /* tienda pag */
 
-    .gridPadre{
+    .gridPadre {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
     }
 
     /* footer tablets */
 
-    .categoriasFooter{
+    .categoriasFooter {
         display: grid;
-        grid-template-columns:repeat(2, 1fr) ;
+        grid-template-columns: repeat(2, 1fr);
         justify-content: center;
     }
-    
-    .ayudaFooter{
+
+    .ayudaFooter {
         margin: 10px 0px;
     }
-    
-    .ayudaFooter h4{
+
+    .ayudaFooter h4 {
         margin-bottom: 10px;
         text-align: center;
     }
-    
-    .parrafoFooter{
+
+    .parrafoFooter {
         color: rgb(47, 49, 49);
         font-size: 13px;
-        text-align: center;    
+        text-align: center;
     }
-    
-    .mediosDePago{
+
+    .mediosDePago {
         display: flex;
         flex-direction: row;
-        justify-content:center;
+        justify-content: center;
     }
-  
-    
+
+
     /* footer final */
-    
-    .dir{
+
+    .dir {
         padding: 10px 5px;
     }
 
-    .dir p{
-        color: #fafafa;
+    .dir p {
+        color: $color-blanco;
         font-size: 1rem;
     }
 }
 
 /* pagina de comprar prendas */
 
-@media(max-width:850px){
+.buttonComprar{
+    align-items: center;
 
-    .seccionFotos{
+    .btnCesta{
+        width: 40%;
+    }
+}
+
+
+@media(max-width:850px) {
+
+    .seccionFotos {
         display: grid;
         grid-template-columns: 1fr fr;
         grid-template-rows: 1fr;
         gap: 10px;
-        width:100% ;
+        width: 100%;
         justify-content: center;
     }
 }
@@ -182,112 +191,115 @@
 /* 0 hasta 768px */
 
 
- @media(max-width:650px){
+@media(max-width:650px) {
 
     /* INDEX */
 
-        /* section A */
-        .sectionA{
+    /* section A */
+    .sectionA {}
 
-        }
-    
-        .sectionA p{
-            font-size: 0.8rem;
-        }
-    
-        .sectionA h2{
-            font-size: 1rem;
-            margin-bottom: 20px;
-        }
-    
-        .gridOutfit p{
-            font-size: 0.7rem;
-        }
+    .sectionA p {
+        font-size: 0.8rem;
+    }
+
+    .sectionA h2 {
+        font-size: 1rem;
+        margin-bottom: 20px;
+    }
+
+    .gridOutfit p {
+        font-size: 0.7rem;
+    }
 
     /* sectionE */
 
-    .sectionE{
+    .sectionE {
         height: auto;
     }
 
-    .sectionE h2{
+    .sectionE h2 {
         font-size: 1.5rem;
     }
-    .sectionE p{
+
+    .sectionE p {
         font-size: 0.5rem;
     }
 
-   /* Section D */
+    /* Section D */
 
-   .sectionD{
-    }
+    .sectionD {}
 
-    .gridTop{
+    .gridTop {
         grid-template-columns: repeat(3, 1fr);
     }
 
-    .gridTop p{
+    .gridTop p {
         font-size: 0.7rem;
     }
 
 
-    .sectionD .pe{
-         font-size: 1.4rem;
+    .sectionD .pe {
+        font-size: 1.4rem;
     }
 
     /* section B */
 
-    .sectionB{
+    .sectionB {
         height: auto;
     }
-    .sectionB h2{
+
+    .sectionB h2 {
         font-size: 1.4rem;
-        color: floralwhite;
+        color: $color-blanco;
     }
 
-    .sectionB p{
+    .sectionB p {
         font-size: 0.5rem;
     }
 
     /* section C */
 
-    .sectionC h1{
+    .sectionC h1 {
         font-size: 1.6rem;
     }
-    .sectionC p{
+
+    .sectionC p {
         font-size: 1rem;
     }
-    .inputC{
+
+    .inputC {
         width: 250px;
     }
 
-    .buttonC{
+    .buttonC {
         width: 250px;
     }
 
     /* footer */
-    .categoriasFooter{
+    .categoriasFooter {
         display: flex;
         flex-direction: column;
         text-align: center;
     }
-    .mediosDePago{
+
+    .mediosDePago {
         justify-content: center;
     }
-    
+
     /* footer final */
-    
-    .dir{
+
+    .dir {
         padding: 5px 10px;
     }
-    .dir p{
-        color: #fafafa;
+
+    .dir p {
+        color: $color-blanco;
         font-size: 0.8rem;
     }
 
 
     /* pagina tienda */
-    .gridPadre{
+    .gridPadre {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(1, 1fr);
@@ -295,8 +307,8 @@
     }
 }
 
-     @media(max-width:350px){
-    .gridPadre{
+@media(max-width:350px) {
+    .gridPadre {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
     }

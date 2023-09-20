@@ -1,282 +1,283 @@
-
-  
-
 /* index */
+
+@mixin anclas {
+  text-decoration: none;
+}
 
 /* section A */
 
 .sectionA {
-    background-color: rgb(246, 243, 239);
-    text-align: center;
-    width: 100%;
-    border-top: 1px solid rgb(63, 63, 61);
-    padding: 0px 20px;
-  }
-  
-  .gridOutfit {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(1, 1fr);
-    gap: 10px;
-    width: 100%;
-    font-family: 'Roboto', sans-serif;
-  }
-  
-  .sectionA .pe {
-    color: #0b0710;
-    padding-top: 30px;
-  }
-  
-  .imagenOutfit {
-    width: 100%;
-  }
-  
-  .gridOutfit p {
-    text-align: center;
-    font-size: 0.7em;
-    color: #616060;
-  }
-  
-  /* section B */
-  
-  .sectionB {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-image: url(../Img/portada2.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: auto;
-    margin: 0px;
-    font-family: 'Roboto', sans-serif;
-  
-    h2 {
-      color: rgb(255, 255, 255);
-      margin-top: 400px;
-      align-items: end;
-      font-size: 40px;
-      font-weight: bold;
-    }
-  
-    p {
-      color: rgb(0, 0, 0);
-      background-color: rgb(255, 255, 255);
-      padding: 5px 5px;
-      border-radius: 10px;
-      cursor: pointer;
-  
-      &:hover {
-        background-color: rgb(98, 94, 107);
-      }
-    }
-  
-    a {
-      text-decoration: none;
-    }
-  }
-  
-  /* section c */
-  
-  .sectionC {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-color: rgb(228, 244, 215);
-    border-top: 1px rgb(96, 89, 89) solid;
-    height: auto;
-    
-  
-    h1 {
-      margin-top: 30px;
-      text-align: center;
-      font-size: 2.7rem;
-      font-weight: bold;
-      padding: 0px 30px;
-      font-family: 'Roboto', sans-serif;
-    }
-  
-    p {
-      text-align: center;
-      margin-top: 30px;
-      font-family: 'Roboto', sans-serif;
-    }
-  }
-  
-  .formC {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 50px;
-  }
-  
-  .inputC {
-    background-color: #f9fbfb;
-    width: 400px;
-    margin-top: 20px;
-    padding: 10px 40px;
-    border: 1px solid rgb(150, 145, 145);
-    border-radius: 10px;
-  }
-  
-  .buttonC {
-    color: #faf9fb;
-    background-color: #020505;
-    width: 400px;
-    margin-top: 20px;
-    margin-bottom: 30px;
-    border-radius: 10px;
-    padding: 10px 40px;
-    border: none;
+  background-color: $color-blanco;
+  text-align: center;
+  width: 100%;
+  border-top: 1px solid rgb(63, 63, 61);
+  padding: 0px 20px;
+}
+
+.gridOutfit {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  gap: 10px;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+}
+
+.sectionA .pe {
+  color: $color-negro;
+  padding-top: 30px;
+}
+
+.imagenOutfit {
+  width: 100%;
+}
+
+.gridOutfit p {
+  text-align: center;
+  font-size: 0.7em;
+  color: #616060;
+}
+
+/* section B */
+
+.sectionB {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../Img/portada2.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: auto;
+  margin: 0px;
+  font-family: 'Roboto', sans-serif;
+
+  h2 {
+    color: $color-blanco;
+    margin-top: 400px;
+    align-items: end;
+    font-size: 40px;
     font-weight: bold;
-    font-family: 'Roboto', sans-serif;
-  
+  }
+
+  p {
+    color: $color-negro;
+    background-color: $color-blanco;
+    padding: 5px 5px;
+    border-radius: 10px;
+    cursor: pointer;
+
     &:hover {
-      background-color: #616060;
+      background-color: rgb(98, 94, 107);
     }
   }
-  
-  /* SECTION D */
-  
-  .sectionD {
-    background: #e6e3e9;
-    padding: 20px 20px;
+
+  a {
+    @include anclas;
   }
-  
-  .gridTop {
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    gap: 10px;
-    justify-content: center;
-    align-items: center;
+}
+
+/* section c */
+
+.sectionC {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgb(228, 244, 215);
+  border-top: 1px rgb(96, 89, 89) solid;
+  height: auto;
+
+
+  h1 {
+    margin-top: 30px;
     text-align: center;
-  
-    p {
-      text-decoration: none;
-      color: #020303;
-      font-size: 0.8rem;
-    }
-  
-    a {
-      text-decoration: none;
-    }
-  }
-  
-  .sectionD .pe {
-    font-size: 1.5rem;
-    text-align: center;
-    margin: 10px 0px;
+    font-size: 2.7rem;
     font-weight: bold;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  }
-  
-  /* SECTION E */
-  
-  .sectionE {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-image: url(../Img/portadamujer1.jpg);
-    background-position: top;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: auto;
-    margin: 0px;
-  
-    h2 {
-      color: rgb(255, 255, 255);
-      margin-top: 200px;
-      align-items: end;
-      font-size: 2rem;
-      font-weight: bold;
-      font-family: 'Roboto', sans-serif;
-    }
-  
-    p {
-      color: rgb(7, 7, 7);
-      background-color: white;
-      padding: 5px 5px;
-      border-radius: 10px;
-      cursor: pointer;
-      font-size: 0.7rem;
-      font-family: 'Roboto', sans-serif;
-  
-      &:hover {
-        background: #616060;
-      }
-    }
-  
-    a {
-      text-decoration: none;
-    }
-  }
-  
-  /* inicio nav */
-  
-  /* inicio footer */
-  
-  .categoriasFooter {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    flex-wrap: nowrap;
-    background-color: rgb(248, 248, 245);
-    margin: 0px 0px;
-    border-top: 1px #716a6a solid;
-    width: 100%;
-    padding: 0px 40px;
-  }
-  
-  .ayudaFooter {
-    margin: 40px 0px;
-    width: 100%;
-  
-    h4 {
-      margin-bottom: 30px;
-      color: #020505;
-      font-weight: bold;
-      font-size: 15px;
-      font-family: 'Roboto', sans-serif;
-    }
-  }
-  
-  .parrafoFooter {
-    color: rgb(47, 49, 49);
-    font-size: 13px;
+    padding: 0px 30px;
     font-family: 'Roboto', sans-serif;
   }
-  
-  .mediosDePago {
-    display: flex;
-    flex-direction: row;
-    justify-content: left;
-  }
-  
-  .logoPse {
-    width: 50px;
-  }
-  
-  .tarjetas {
-    width: 200px;
-  }
-  
-  .appStore {
-    width: 100px;
-    margin: 0px 10px 20px 10px;
-  }
-  
-  /* footer final */
-  
-  .dir {
-    background-color: #020303;
-    color: rgb(243, 246, 248);
-    padding: 10px 0px;
+
+  p {
     text-align: center;
-  
-    p {
-      color: #fafafa;
-      font-size: 1rem;
-      font-family: 'Roboto', sans-serif;
+    margin-top: 30px;
+    font-family: 'Roboto', sans-serif;
+  }
+}
+
+.formC {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.inputC {
+  background-color: $color-blanco;
+  width: 400px;
+  margin-top: 20px;
+  padding: 10px 40px;
+  border: 1px solid rgb(150, 145, 145);
+  border-radius: 10px;
+}
+
+.buttonC {
+  color: $color-blanco;
+  background-color: $color-negro;
+  width: 400px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  padding: 10px 40px;
+  border: none;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+
+  &:hover {
+    background-color: #616060;
+  }
+}
+
+/* SECTION D */
+
+.sectionD {
+  background: $color-blanco;
+  padding: 20px 20px;
+}
+
+.gridTop {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  p {
+    @include anclas;
+    color: $color-negro;
+    font-size: 0.8rem;
+  }
+
+  a {
+    @include anclas;
+  }
+}
+
+.sectionD .pe {
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 10px 0px;
+  font-weight: bold;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* SECTION E */
+
+.sectionE {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../Img/portadamujer1.jpg);
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: auto;
+  margin: 0px;
+
+  h2 {
+    color: $color-blanco;
+    margin-top: 200px;
+    align-items: end;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  p {
+    color: $color-negro;
+    background-color: $color-blanco;
+    padding: 5px 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 0.7rem;
+    font-family: 'Roboto', sans-serif;
+
+    &:hover {
+      background: #616060;
     }
   }
+
+  a {
+    @include anclas;
+  }
+}
+
+/* inicio nav */
+
+/* inicio footer */
+
+.categoriasFooter {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  flex-wrap: nowrap;
+  background-color: $color-blanco;
+  margin: 0px 0px;
+  border-top: 1px #716a6a solid;
+  width: 100%;
+  padding: 0px 40px;
+}
+
+.ayudaFooter {
+  margin: 40px 0px;
+  width: 100%;
+
+  h4 {
+    margin-bottom: 30px;
+    color: $color-negro;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+  }
+}
+
+.parrafoFooter {
+  color: rgb(47, 49, 49);
+  font-size: 13px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.mediosDePago {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+}
+
+.logoPse {
+  width: 50px;
+}
+
+.tarjetas {
+  width: 200px;
+}
+
+.appStore {
+  width: 100px;
+  margin: 0px 10px 20px 10px;
+}
+
+/* footer final */
+
+.dir {
+  background-color: $color-negro;
+  color: $color-blanco;
+  padding: 10px 0px;
+  text-align: center;
+
+  p {
+    color: $color-blanco;
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+  }
+}

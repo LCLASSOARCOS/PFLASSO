@@ -1,16 +1,16 @@
 .nav-link .active {
-    color: rgb(246, 246, 243);
-  }
+  color: $color-blanco;
+}
 
-  
-  .nav-link{
-    color: rgb(0, 0, 0);
-    font-family: "roboto", "Montserrat", sans-serif;
-  }
 
-  .ilass{
-    font-size: 17px;
-    font-weight: bold;
-    text-align: center;
-    margin-right: 100px;
-  }
+.nav-link {
+  color: $color-negro;
+  font-family: "roboto", "Montserrat", sans-serif;
+}
+
+.ilass {
+  font-size: 17px;
+  font-weight: bold;
+  text-align: center;
+  margin-right: 100px;
+}

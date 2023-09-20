@@ -10,7 +10,7 @@ html {
 /* index */
 /* section A */
 .sectionA {
-  background-color: rgb(246, 243, 239);
+  background-color: #fafafa;
   text-align: center;
   width: 100%;
   border-top: 1px solid rgb(63, 63, 61);
@@ -27,7 +27,7 @@ html {
 }
 
 .sectionA .pe {
-  color: #0b0710;
+  color: #000000;
   padding-top: 30px;
 }
 
@@ -56,15 +56,15 @@ html {
   font-family: "Roboto", sans-serif;
 }
 .sectionB h2 {
-  color: rgb(255, 255, 255);
+  color: #fafafa;
   margin-top: 400px;
   align-items: end;
   font-size: 40px;
   font-weight: bold;
 }
 .sectionB p {
-  color: rgb(0, 0, 0);
-  background-color: rgb(255, 255, 255);
+  color: #000000;
+  background-color: #fafafa;
   padding: 5px 5px;
   border-radius: 10px;
   cursor: pointer;
@@ -107,7 +107,7 @@ html {
 }
 
 .inputC {
-  background-color: #f9fbfb;
+  background-color: #fafafa;
   width: 400px;
   margin-top: 20px;
   padding: 10px 40px;
@@ -116,8 +116,8 @@ html {
 }
 
 .buttonC {
-  color: #faf9fb;
-  background-color: #020505;
+  color: #fafafa;
+  background-color: #000000;
   width: 400px;
   margin-top: 20px;
   margin-bottom: 30px;
@@ -133,7 +133,7 @@ html {
 
 /* SECTION D */
 .sectionD {
-  background: #e6e3e9;
+  background: #fafafa;
   padding: 20px 20px;
 }
 
@@ -147,7 +147,7 @@ html {
 }
 .gridTop p {
   text-decoration: none;
-  color: #020303;
+  color: #000000;
   font-size: 0.8rem;
 }
 .gridTop a {
@@ -176,7 +176,7 @@ html {
   margin: 0px;
 }
 .sectionE h2 {
-  color: rgb(255, 255, 255);
+  color: #fafafa;
   margin-top: 200px;
   align-items: end;
   font-size: 2rem;
@@ -184,8 +184,8 @@ html {
   font-family: "Roboto", sans-serif;
 }
 .sectionE p {
-  color: rgb(7, 7, 7);
-  background-color: white;
+  color: #000000;
+  background-color: #fafafa;
   padding: 5px 5px;
   border-radius: 10px;
   cursor: pointer;
@@ -205,7 +205,7 @@ html {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   flex-wrap: nowrap;
-  background-color: rgb(248, 248, 245);
+  background-color: #fafafa;
   margin: 0px 0px;
   border-top: 1px #716a6a solid;
   width: 100%;
@@ -218,7 +218,7 @@ html {
 }
 .ayudaFooter h4 {
   margin-bottom: 30px;
-  color: #020505;
+  color: #000000;
   font-weight: bold;
   font-size: 15px;
   font-family: "Roboto", sans-serif;
@@ -251,8 +251,8 @@ html {
 
 /* footer final */
 .dir {
-  background-color: #020303;
-  color: rgb(243, 246, 248);
+  background-color: #000000;
+  color: #fafafa;
   padding: 10px 0px;
   text-align: center;
 }
@@ -286,7 +286,7 @@ html {
 .productoCasillas h2 {
   font-size: 1rem;
   font-weight: bold;
-  color: black;
+  color: #000000;
 }
 
 .productoParrafo {
@@ -296,7 +296,7 @@ html {
 
 .productoComprar {
   background-color: rgb(67, 37, 187);
-  color: aliceblue;
+  color: #fafafa;
   border: none;
   padding: 5px 5px;
   border-radius: 5px;
@@ -308,11 +308,11 @@ html {
 }
 
 .nav-link .active {
-  color: rgb(246, 246, 243);
+  color: #fafafa;
 }
 
 .nav-link {
-  color: rgb(0, 0, 0);
+  color: #000000;
   font-family: "roboto", "Montserrat", sans-serif;
 }
 
@@ -354,6 +354,7 @@ html {
 .seccionPrecio {
   width: 100%;
   padding: 0px 50px;
+  margin-top: 40px;
 }
 .seccionPrecio h1 {
   font-size: 0.8em;
@@ -363,16 +364,16 @@ html {
 .seccionPrecio p {
   font-size: 1.2em;
   font-weight: bold;
-  color: #020303;
-  margin: 0px 0px 0px 0px;
+  color: #000000;
+  margin: 20px 0px 0px 0px;
 }
 .seccionPrecio .cop {
-  margin-top: 30px;
-  color: rgb(2, 1, 1);
+  margin-top: 50px;
+  color: #000000;
 }
 
 .tallas {
-  margin: 20px 0px;
+  margin: 30px 0px;
 }
 .tallas p {
   display: inline;
@@ -394,7 +395,7 @@ html {
   margin-top: 60px;
   margin-left: 10px;
   padding: 0px 5px 0px 0px;
-  border-right: 1px solid black;
+  border-right: 1px solid #000000;
 }
 
 /* button cesta */
@@ -402,19 +403,19 @@ html {
   margin-top: 100px;
   display: flex;
   flex-direction: column;
-  width: 70%;
-  align-items: center center;
+  width: 100%;
 }
-.buttonComprar button {
+.buttonComprar .btnCesta {
   background-color: rgb(66, 238, 172);
   margin-top: 10px;
   border-radius: 10px;
   border: none;
   padding: 10px 5px;
-  color: #f9fbfb;
+  color: #fafafa;
   font-size: 20px;
+  width: 70%;
 }
-.buttonComprar button:hover {
+.buttonComprar .btnCesta:hover {
   background: steelblue;
 }
 
@@ -505,7 +506,7 @@ html {
   .sectionB p {
     font-size: 0.8rem;
     color: #000000;
-    background: #ffffff;
+    background: #fafafa;
   }
   /* tienda pag */
   .gridPadre {
@@ -545,6 +546,13 @@ html {
   }
 }
 /* pagina de comprar prendas */
+.buttonComprar {
+  align-items: center;
+}
+.buttonComprar .btnCesta {
+  width: 40%;
+}
+
 @media (max-width: 850px) {
   .seccionFotos {
     display: grid;
@@ -596,7 +604,7 @@ html {
   }
   .sectionB h2 {
     font-size: 1.4rem;
-    color: floralwhite;
+    color: #fafafa;
   }
   .sectionB p {
     font-size: 0.5rem;
