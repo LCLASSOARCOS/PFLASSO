@@ -3,18 +3,19 @@
 /* grid */
 
 .gridFlexx {
-  display: grid;
+  
   width: 100%;
 }
 
 .seccionFotos {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 1fr 1fr;
+  
 }
 
 .seccionFotosb {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: 1fr 1fr 1fr;
   gap: 10px;
   margin: 20px 10px;
 }
