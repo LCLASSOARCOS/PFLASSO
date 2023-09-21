@@ -223,6 +223,12 @@ html {
   font-size: 15px;
   font-family: "Roboto", sans-serif;
 }
+.ayudaFooter .numeroFooter {
+  color: rgb(27, 125, 92);
+}
+.ayudaFooter a {
+  text-decoration: none;
+}
 
 .parrafoFooter {
   color: rgb(47, 49, 49);

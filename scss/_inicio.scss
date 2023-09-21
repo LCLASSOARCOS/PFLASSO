@@ -240,6 +240,14 @@
     font-size: 15px;
     font-family: 'Roboto', sans-serif;
   }
+
+  .numeroFooter{
+    color: rgb(27, 125, 92)
+  }
+
+  a{
+    @include anclas;
+  };
 }
 
 .parrafoFooter {
