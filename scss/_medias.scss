@@ -162,17 +162,18 @@
         color: $color-blanco;
         font-size: 1rem;
     }
-}
 
-/* pagina de comprar prendas */
+    /* pagina de comprar prendas */
 
-.buttonComprar{
-    align-items: center;
+    .buttonComprar {
+        align-items: center;
+    }
 
-    .btnCesta{
-        width: 40%;
+    .buttonComprar .btnCesta {
+        width: 50%;
     }
 }
+
 
 
 @media(max-width:850px) {
@@ -305,7 +306,16 @@
         grid-template-rows: repeat(1, 1fr);
         gap: 10px;
     }
+
+     /* pagina de comprar prendas */
+
+    .buttonComprar .btnCesta {
+        width: 70%;
+    }
+
 }
+
+
 
 @media(max-width:350px) {
     .gridPadre {

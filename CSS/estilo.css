@@ -549,15 +549,14 @@ html {
     color: #fafafa;
     font-size: 1rem;
   }
+  /* pagina de comprar prendas */
+  .buttonComprar {
+    align-items: center;
+  }
+  .buttonComprar .btnCesta {
+    width: 50%;
+  }
 }
-/* pagina de comprar prendas */
-.buttonComprar {
-  align-items: center;
-}
-.buttonComprar .btnCesta {
-  width: 40%;
-}
-
 @media (max-width: 850px) {
   .seccionFotos {
     display: grid;
@@ -650,6 +649,10 @@ html {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(1, 1fr);
     gap: 10px;
+  }
+  /* pagina de comprar prendas */
+  .buttonComprar .btnCesta {
+    width: 70%;
   }
 }
 @media (max-width: 350px) {
