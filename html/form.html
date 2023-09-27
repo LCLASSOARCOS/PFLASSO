@@ -81,7 +81,7 @@
               </ul>
             </li>
             <li><a style="color:black" class="nav-link"
-              href="form.html">Contacto</a></li>
+                href="form.html">Contacto</a></li>
           </ul>
           <form class="d-flex" role="search">
             <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
@@ -92,7 +92,34 @@
     </nav>
 
   </header>
-  <h1>PAGINA EN CONSTRUCCION</h1>
+  
+<body>
+    
+<div class="formulario-margenes">
+    <div class="formulario-contacto">
+        <h2>Escribenos</h2>
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque dolorum error quos reiciendis voluptas voluptatem porro necessitatibus est? Vitae, officiis repellat? Nihil, ipsa in enim laudantium dicta eveniet repudiandae amet.</p>
+        <form action="procesar.php" method="post">
+            <label for="nombre">Nombres:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="apellidos">Apellidos:</label>
+            <input type="text" id="apellidos" name="apellidos" required>
+
+            <label for="correo">Correo Electrónico:</label>
+            <input type="email" id="correo" name="correo" required>
+
+            <label for="celular">Número de Celular:</label>
+            <input type="tel" id="celular" name="celular" required>
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" required></textarea>
+
+            <button class="boton-enviar" type="submit">Enviar</button>
+            <button class="boton-reset" type="reset">Limpiar</button>
+        </form>
+    </div>
+</div>
 
   <!-- js animaciones michal -->
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>

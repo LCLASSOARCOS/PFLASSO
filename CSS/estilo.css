@@ -162,6 +162,14 @@ html {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
+.imagenOutfit {
+  transition: 1s;
+  object-fit: cover;
+}
+.imagenOutfit:hover {
+  transform: scale(1.2);
+}
+
 /* SECTION E */
 .sectionE {
   display: flex;
@@ -224,7 +232,7 @@ html {
   font-family: "Roboto", sans-serif;
 }
 .ayudaFooter .numeroFooter {
-  color: rgb(27, 125, 92);
+  color: rgb(12, 208, 91);
 }
 .ayudaFooter a {
   text-decoration: none;
@@ -253,6 +261,10 @@ html {
 .appStore {
   width: 100px;
   margin: 0px 10px 20px 10px;
+}
+
+.contactoWpp {
+  font-weight: bold;
 }
 
 /* footer final */
@@ -329,6 +341,95 @@ html {
   margin-right: 100px;
 }
 
+/* Estilos generales para el formulario */
+.formulario-margenes {
+  font-family: "Roboto", sans-serif;
+  background-color: #f7f5f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120vh;
+  margin: 0;
+}
+
+.formulario-contacto {
+  max-width: auto;
+  padding: 30px;
+  background-color: #3a446e;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+.formulario-contacto h2 {
+  color: #ccc;
+  text-align: center;
+}
+.formulario-contacto p {
+  color: black;
+  font-size: 1rem;
+  margin: 30px 0px;
+}
+.formulario-contacto label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #f0e6e6;
+}
+.formulario-contacto input[type=text], .formulario-contacto input[type=email], .formulario-contacto input[type=tel] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: none;
+  border-bottom: 2px solid #007bff;
+  background-color: transparent;
+  transition: border-bottom-color 0.3s ease;
+}
+.formulario-contacto textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: none;
+  border-bottom: 2px solid #007bff;
+  background-color: transparent;
+  transition: border-bottom-color 0.3s ease;
+}
+.formulario-contacto input[type=text]:focus, .formulario-contacto input[type=email]:focus, .formulario-contacto input[type=tel]:focus {
+  outline: none;
+  border-bottom-color: #ff6600;
+}
+.formulario-contacto textarea {
+  height: 150px;
+}
+.formulario-contacto textarea:focus {
+  outline: none;
+  border-bottom-color: #ff6600;
+}
+.formulario-contacto .boton-enviar {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ff6600;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.formulario-contacto .boton-reset {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ff6600;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  background-color: #ccc;
+}
+.formulario-contacto .boton-enviar:hover, .formulario-contacto .boton-reset:hover {
+  background-color: #ff4500;
+}
+
+/* Estilos para los campos del formulario */
+/* Estilos para los botones */
 /* PAGINAS PRODUCTOS */
 /* grid */
 .gridFlexx {
@@ -540,6 +641,9 @@ html {
     display: flex;
     flex-direction: row;
     justify-content: center;
+  }
+  .contactoWpp {
+    text-align: center;
   }
   /* footer final */
   .dir {
