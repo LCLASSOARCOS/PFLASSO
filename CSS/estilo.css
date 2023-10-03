@@ -360,8 +360,9 @@ html {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
 }
 .formulario-contacto h2 {
-  color: #ccc;
+  color: #f9f9f9;
   text-align: center;
+  font-weight: bold;
 }
 .formulario-contacto p {
   color: black;
