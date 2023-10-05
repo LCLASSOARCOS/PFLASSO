@@ -341,6 +341,11 @@ html {
   margin-right: 100px;
 }
 
+.resalte:hover {
+  border-bottom: 2px black solid;
+  background-color: rgb(235, 245, 235);
+}
+
 /* Estilos generales para el formulario */
 .formulario-margenes {
   font-family: "Roboto", sans-serif;
